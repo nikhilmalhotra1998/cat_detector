@@ -5,10 +5,8 @@ Created on Thu Jun  6 06:03:15 2019
 @author: hp
 """
 
-## START CODE HERE ##
 my_image = "cat1.jpg" # change this to the name of your image file 
 my_label_y = [1] # the true class of your image (1 -> cat, 0 -> non-cat)
-## END CODE HERE ##
 from sklearn.externals import joblib 
 parameters=joblib.load('model.pkl')
 
